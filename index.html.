@@ -1,1 +1,98 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RED ESP REMOTE | JHEEFxit</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#080808;color:white;
+ font-family:Arial,sans-serif
+}
+header{
+ background:#180606;padding:35px 15px;
+ text-align:center;border-bottom:2px solid #e21c1c
+}
+h1{color:#ff2929;font-size:30px;margin:5px}
+header p{color:#aaa}
+main{max-width:700px;margin:auto;padding:20px}
+.card{
+ background:#171717;border:1px solid #492020;
+ border-radius:14px;padding:22px;margin:18px 0;
+ text-align:center
+}
+h2{color:#ff3030}
+.price{font-size:30px;color:#ff3030;font-weight:bold}
+button{
+ width:100%;padding:14px;border:0;border-radius:8px;
+ background:#d71919;color:white;font-weight:bold;
+ font-size:16px
+}
+input{
+ width:100%;padding:13px;margin:7px 0;
+ border-radius:7px;border:1px solid #555;
+ background:#222;color:white
+}
+.small{color:#999;font-size:13px}
+footer{text-align:center;padding:25px;color:#777}
+</style>
+</head>
+<body>
+<header>
+<h1>RED ESP REMOTE</h1>
+<p>JHEEFxit | Plataforma oficial</p>
+</header>
+<main>
+<div class="card">
+<h2>Bem-vindo!</h2>
+<p>Ferramentas visuais e treinamento
+para jogadores.</p>
+<p class="small">Plataforma em desenvolvimento.</p>
+</div>
+
+<h2 style="text-align:center">NOSSOS PLANOS</h2>
+
+<div class="card">
+<h2>DIÁRIO</h2>
+<div class="price">R$ 9,90</div>
+<p>Acesso por 1 dia</p>
+<button onclick="alert('Pagamento ainda não configurado')">
+ESCOLHER PLANO
+</button>
+</div>
+
+<div class="card">
+<h2>SEMANAL</h2>
+<div class="price">R$ 19,90</div>
+<p>Acesso por 7 dias</p>
+<button onclick="alert('Pagamento ainda não configurado')">
+ESCOLHER PLANO
+</button>
+</div>
+
+<div class="card">
+<h2>MENSAL</h2>
+<div class="price">R$ 39,90</div>
+<p>Acesso por 30 dias</p>
+<button onclick="alert('Pagamento ainda não configurado')">
+ESCOLHER PLANO
+</button>
+</div>
+
+<div class="card">
+<h2>ÁREA DO CLIENTE</h2>
+<input type="email" placeholder="Seu e-mail">
+<input type="password" placeholder="Sua senha">
+<button onclick="alert('Cadastro e login ainda serão configurados')">
+ENTRAR
+</button>
+</div>
+</main>
+<footer>
+RED ESP REMOTE © 2026<br>
+JHEEFxit
+</footer>
+</body>
+</html>
